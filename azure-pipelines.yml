@@ -37,4 +37,4 @@ steps:
   inputs:
     azureSubscription: 'AzureConn_sc'
     appName: 'agSpaceGameAppPlan'
-    package: '**/WebApp.zip'
+    package: '../a/WebApp.zip'
