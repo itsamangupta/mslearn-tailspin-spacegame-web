@@ -33,7 +33,7 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
-- task: AzureWebApp@1
+- task: AzureRMWebAppDeployment@4
   inputs:
     azureSubscription: 'AzureConn_sc'
     appName: 'agSpaceGameAppPlan'
