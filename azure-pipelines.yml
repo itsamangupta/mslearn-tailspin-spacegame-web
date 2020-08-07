@@ -36,5 +36,5 @@ steps:
 - task: AzureRMWebAppDeployment@4
   inputs:
     azureSubscription: 'AzureConn_sc'
-    appName: 'agSpaceGameAppPlan'
+    WebAppName: 'agSpaceGameAppPlan'
     package: '../a/WebApp.zip'
